@@ -1,0 +1,15 @@
+.card {
+  background:var(--panel-2);border:1px solid var(--border);border-radius:14px;padding:10px 10px 8px;box-shadow:var(--shadow)
+}
+.done {opacity:.7;filter:saturate(.7)}
+.row {display:flex;align-items:flex-start;gap:10px}
+.checkbox {position:relative;width:20px;height:20px}
+.checkbox input{opacity:0;position:absolute;inset:0}
+.checkbox span{display:block;width:20px;height:20px;border-radius:6px;border:1px solid var(--border);background:#0e1320}
+.checkbox input:checked + span{background:linear-gradient(135deg,var(--ok),#39d65b);border-color:transparent}
+.titleWrap {flex:1;min-width:0}
+h4 {font-size:15px;font-weight:700}
+.meta {margin-top:6px;display:flex;gap:6px;flex-wrap:wrap}
+.actions {display:flex;gap:6px}
+.icon {width:28px;height:28px;border-radius:8px;background:transparent;border:1px solid var(--border)}
+.notes {margin-top:8px;color:var(--muted);font-size:13px;white-space:pre-wrap}

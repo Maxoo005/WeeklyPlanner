@@ -1,0 +1,7 @@
+.empty {display:grid;place-items:center;padding:30px}
+.card {
+  background:var(--panel);border:1px solid var(--border);border-radius:18px;padding:28px;max-width:560px;text-align:center;box-shadow:var(--shadow)
+}
+h2 {font-size:22px;margin-bottom:8px}
+p {color:var(--muted);margin-bottom:16px}
+.primary {background:linear-gradient(135deg,var(--primary),var(--primary-600));color:#fff;padding:10px 16px;border-radius:12px}

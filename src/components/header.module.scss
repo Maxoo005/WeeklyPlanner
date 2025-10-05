@@ -1,0 +1,17 @@
+.header {
+  display:flex;align-items:center;justify-content:space-between;
+  background:linear-gradient(180deg, rgba(110,156,255,.18), rgba(110,156,255,0)) , var(--panel);
+  border:1px solid var(--border);
+  padding:16px 18px;border-radius:var(--radius);box-shadow:var(--shadow)
+}
+.brand {display:flex;align-items:center;gap:12px}
+.dot {width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--accent))}
+h1 {font-size:22px;letter-spacing:.2px}
+.actions {display:flex;gap:10px}
+.primary {
+  background:linear-gradient(135deg,var(--primary),var(--primary-600));
+  padding:10px 14px;border-radius:12px;color:white;font-weight:600
+}
+.ghost {
+  background:transparent;border:1px solid var(--border);padding:10px 14px;border-radius:12px;color:var(--text)
+}

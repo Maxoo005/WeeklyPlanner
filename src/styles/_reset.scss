@@ -1,0 +1,6 @@
+*,*::before,*::after{box-sizing:border-box}*{margin:0}
+html,body,#root{height:100%}
+body{line-height:1.4;-webkit-font-smoothing:antialiased;background:var(--bg);color:var(--text);font-family:var(--font)}
+img,picture,video,canvas,svg{display:block;max-width:100%}
+input,button,textarea,select{font:inherit;background:none;color:inherit;border:none;outline:none}
+button{cursor:pointer}
