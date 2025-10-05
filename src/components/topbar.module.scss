@@ -1,0 +1,13 @@
+.topbar {
+  display:flex;gap:12px;align-items:center;flex-wrap:wrap
+}
+.search {
+  flex:1;min-width:220px;background:var(--panel);
+  border:1px solid var(--border);padding:12px 14px;border-radius:12px
+}
+.filters {display:flex;gap:10px}
+select {
+  background:var(--panel);
+  border:1px solid var(--border);
+  padding:10px 12px;border-radius:12px;color:var(--text)
+}

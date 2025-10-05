@@ -1,0 +1,7 @@
+@use './_theme.scss';
+@use './_reset.scss';
+
+.app-root{
+  min-height:100dvh;display:grid;grid-template-rows:auto auto 1fr;
+  gap:var(--gap-lg);padding:18px clamp(14px,3vw,28px);
+}

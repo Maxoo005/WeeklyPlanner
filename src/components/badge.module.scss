@@ -1,0 +1,8 @@
+.badge {
+  display:inline-flex;align-items:center;gap:6px;
+  padding:4px 8px;border-radius:999px;font-size:12px;border:1px solid var(--border);background:var(--panel-2)
+}
+.accent {background:rgba(125,224,194,.14);border-color:rgba(125,224,194,.25);color:#baf2df}
+.muted {background:rgba(168,176,195,.12);border-color:rgba(168,176,195,.2);color:#c7ccda}
+.info {background:rgba(122,167,255,.14);border-color:rgba(122,167,255,.25);color:#bcd1ff}
+.danger {background:rgba(255,107,107,.15);border-color:rgba(255,107,107,.28);color:#ffc7c7}
